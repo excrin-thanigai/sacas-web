@@ -1,0 +1,94 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.swiper-pagination-bullet {
+  background-color: #7e131d !important;
+  opacity: 30%;
+  width: 0.25rem;
+  height: 0.25rem;
+  border-radius: 0 !important;
+}
+.swiper-pagination-bullet-active {
+  background-color: #8b0000 !important;
+  opacity: 1;
+  width: 1rem !important;
+}
+.swiper-pagination {
+  position: absolute !important;
+  bottom: 0px !important;
+}
+.department-page__swiper .swiper,
+.announcements .swiper {
+  padding-bottom: 2rem !important;
+}
+
+.detail-content-custom {
+  color: #0d0d0d;
+}
+.detail-content-custom p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-top: 1.125rem;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+/* .detail-content-custom p * {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-top: 1.125rem;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+} */
+.detail-content-custom p img {
+  max-width: 100%;
+}
+
+.department-page__swiper .swiper-button-next,
+.department-page__swiper .swiper-button-prev {
+  color: #8b0000;
+  position: relative !important;
+  margin-top: inherit;
+}
+
+.department-page__swiper .swiper-button-next:after,
+.department-page__swiper .swiper-button-prev:after {
+  font-size: 16px !important;
+}
+
+.hero__silder .swiper-pagination,
+.department-page__swiper .swiper-pagination {
+  text-align: left !important;
+  position: relative !important;
+}
+
+.swiper-pagination-fraction,
+.swiper-pagination-custom,
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+  bottom: var(--swiper-pagination-bottom, 0px) !important;
+}
+
+.student__swiper .swiper {
+  padding: 1.5rem !important;
+}
+
+.hero__silder .swiper-pagination-bullet-active,
+.hero__silder .swiper-pagination-bullet {
+  background-color: white !important;
+  border-radius: 10% !important;
+}
+
+@media only screen and (max-width: 30rem) {
+  .department-page__swiper.swiper {
+    padding: 0.75rem !important;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
