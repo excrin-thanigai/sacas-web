@@ -1,10 +1,10 @@
 import Academics from "../components/blocks/departments/academics";
 import Banner from "../components/blocks/departments/banner";
-import DepartmentOverview from "../components/blocks/departments/departments-Overview";
+import DepartmentOverview from "../components/blocks/departments/departments-overview";
 import OurFacultyDepartment from "../components/blocks/departments/our-faculty-department";
 
-import Scholarship from "../components/blocks/departments/Scholarship";
-import StudentAchievements from "../components/blocks/departments/student-Achievements";
+import Scholarship from "../components/blocks/departments/scholarship";
+import StudentAchievements from "../components/blocks/departments/student-achievements";
 import StudentTestimonial from "../components/blocks/departments/students-testimonial";
 
 export const meta = () => {
